@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: darkred;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: "Old English Text MT", fantasy;
+}
+
+#title {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container {
+    color: black;
+    background-color: darkred;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    border: 1px solid white;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    font-size: larger;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+}
+
+.photos img {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid darkred;
+    background-color: black;
+    height: 200px;
+    flex: 1;
+}
+
+.footer-one,
+.footer-three {
+    flex: initial;
+    width: 300px;
+}
+
+.footer-two p {
+    display: flex;
+    justify-content: center;
+}
